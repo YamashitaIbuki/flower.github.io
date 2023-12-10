@@ -1,1 +1,56 @@
+html {
+    font-size: 24px;
+    }
+    @media (max-width: 1440px) {
+    html {
+    font-size: calc((100vw - 320px) / 140 + 12px);
+    }
+}
 
+iframe {
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+  
+
+/* origin-color */
+
+:root {
+    --color-accent: #ffb2f7; /* アクセントカラー */
+  }
+
+/* red: #EC0A36 */
+/* pink: #FC6EED */
+/* green: #B4B5A6 */
+
+/* origin-color */
+
+body {
+    font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
+  }
+
+
+.f-1 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.f-2 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.f-3 {
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+.f-4 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.f-5 {
+    font-size: 2.5rem;
+    margin: 0;
+}
